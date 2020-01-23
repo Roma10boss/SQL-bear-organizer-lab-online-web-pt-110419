@@ -1,6 +1,10 @@
-CREATE TABLE students
+CREATE TABLE bears
     (id INTEGER PRIMARY KEY,
     name TEXT,
-    grade INTEGER,
+    age INTEGER,
+    gender TEXT,
+    color TEXT,
+    temperament TEXT,
+    alive BOOLEAN
     gpa FLOAT,
     tardies INTEGER);
