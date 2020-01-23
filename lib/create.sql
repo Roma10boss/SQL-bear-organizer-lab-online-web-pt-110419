@@ -1,4 +1,6 @@
-CREATE TABLE bears
+CREATE TABLE students
     (id INTEGER PRIMARY KEY,
-    column TEXT,
-    type TEXT);
+    name TEXT,
+    grade INTEGER,
+    gpa FLOAT,
+    tardies INTEGER);
